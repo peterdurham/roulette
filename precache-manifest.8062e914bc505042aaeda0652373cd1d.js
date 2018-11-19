@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "af021cfffdfa11313d9911ec8203a193",
-    "url": "/roulette/static/media/chip10red.af021cff.jpg"
+    "revision": "dd16d7ad24703860f648d0395b917e25",
+    "url": "/roulette/static/media/chip25red.dd16d7ad.jpg"
   },
   {
-    "revision": "c67aa5723cd53e9423e2",
-    "url": "/roulette/static/css/main.080b1cbc.chunk.css"
+    "revision": "041689c519dc431244ad",
+    "url": "/roulette/static/css/main.bc2e7dbc.chunk.css"
   },
   {
     "revision": "a3c20dc8079aea75fcd8",
@@ -14,10 +14,6 @@ self.__precacheManifest = [
   {
     "revision": "ab6ea75437e7bd8950f4",
     "url": "/roulette/static/js/runtime~main.ab6ea754.js"
-  },
-  {
-    "revision": "d358a09ea4e07a1aaa0d639eb0b6d9e5",
-    "url": "/roulette/static/media/chip1.d358a09e.jpg"
   },
   {
     "revision": "7603b74f04455a18a3a03499fe551e00",
@@ -32,10 +28,6 @@ self.__precacheManifest = [
     "url": "/roulette/static/media/chip1black.d94b94a5.jpg"
   },
   {
-    "revision": "d91db34e7e3a7f39f18273c0864cf4b9",
-    "url": "/roulette/static/media/chip5.d91db34e.jpg"
-  },
-  {
     "revision": "6696312a7329bfa0a2f474bdbe94d20e",
     "url": "/roulette/static/media/chip5red.6696312a.jpg"
   },
@@ -48,12 +40,8 @@ self.__precacheManifest = [
     "url": "/roulette/static/media/chip5black.04d53e97.jpg"
   },
   {
-    "revision": "34a41a7767f33f37d95622c51c63c3a1",
-    "url": "/roulette/static/media/chip10.34a41a77.jpg"
-  },
-  {
-    "revision": "c67aa5723cd53e9423e2",
-    "url": "/roulette/static/js/main.c67aa572.chunk.js"
+    "revision": "af021cfffdfa11313d9911ec8203a193",
+    "url": "/roulette/static/media/chip10red.af021cff.jpg"
   },
   {
     "revision": "501dd4c854493b4119e2aae8c5c9790f",
@@ -64,12 +52,8 @@ self.__precacheManifest = [
     "url": "/roulette/static/media/chip10black.9ae6163b.jpg"
   },
   {
-    "revision": "60933c3e622cbb2fb5fd5ee43949537e",
-    "url": "/roulette/static/media/chip25.60933c3e.jpg"
-  },
-  {
-    "revision": "dd16d7ad24703860f648d0395b917e25",
-    "url": "/roulette/static/media/chip25red.dd16d7ad.jpg"
+    "revision": "041689c519dc431244ad",
+    "url": "/roulette/static/js/main.041689c5.chunk.js"
   },
   {
     "revision": "40f1a5b7743f029c939cac050fc9bfa7",
@@ -78,10 +62,6 @@ self.__precacheManifest = [
   {
     "revision": "c2ef32ce33ff066b6900736f9c3554f6",
     "url": "/roulette/static/media/chip25black.c2ef32ce.jpg"
-  },
-  {
-    "revision": "b15954da11a3134416a5137f5f16538c",
-    "url": "/roulette/static/media/chip100.b15954da.jpg"
   },
   {
     "revision": "5a1c553149e0b4e115f047180dd9ea27",
@@ -96,11 +76,31 @@ self.__precacheManifest = [
     "url": "/roulette/static/media/chip100black.85b84fa2.jpg"
   },
   {
-    "revision": "33fa3d65a28048e6053b8149ba53d11b",
-    "url": "/roulette/static/media/wheel.33fa3d65.jpg"
+    "revision": "f3a933ff3cb9e4699c814cf4f41d8ea2",
+    "url": "/roulette/static/media/chip1background.f3a933ff.jpg"
   },
   {
-    "revision": "d1b6915d971eb07c031467fda71e7fa4",
+    "revision": "6cdf002ad3b17d86c0e0fccfdc6d8d77",
+    "url": "/roulette/static/media/chip5background.6cdf002a.jpg"
+  },
+  {
+    "revision": "d93c696e8f6d8aeb3b48dbb5a787fa48",
+    "url": "/roulette/static/media/chip10background.d93c696e.jpg"
+  },
+  {
+    "revision": "2e47beb2adbecf7aa903f4c78b37894d",
+    "url": "/roulette/static/media/chip25background.2e47beb2.jpg"
+  },
+  {
+    "revision": "e8efcf3fbd91352d4484e9eb38c9cf46",
+    "url": "/roulette/static/media/chip100background.e8efcf3f.jpg"
+  },
+  {
+    "revision": "130597668bcd4fc15cd41021907d68b7",
+    "url": "/roulette/static/media/wheel.13059766.jpg"
+  },
+  {
+    "revision": "c055e962e4791b28a07b62286a4e0a6d",
     "url": "/roulette/index.html"
   }
 ];
