@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/roulette/static/media/chip25red.dd16d7ad.jpg"
   },
   {
-    "revision": "041689c519dc431244ad",
-    "url": "/roulette/static/css/main.bc2e7dbc.chunk.css"
+    "revision": "f2b82254dabd25e33cee",
+    "url": "/roulette/static/css/main.79353213.chunk.css"
   },
   {
     "revision": "a3c20dc8079aea75fcd8",
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/roulette/static/media/chip10black.9ae6163b.jpg"
   },
   {
-    "revision": "041689c519dc431244ad",
-    "url": "/roulette/static/js/main.041689c5.chunk.js"
+    "revision": "f2b82254dabd25e33cee",
+    "url": "/roulette/static/js/main.f2b82254.chunk.js"
   },
   {
     "revision": "40f1a5b7743f029c939cac050fc9bfa7",
@@ -76,6 +76,10 @@ self.__precacheManifest = [
     "url": "/roulette/static/media/chip100black.85b84fa2.jpg"
   },
   {
+    "revision": "130597668bcd4fc15cd41021907d68b7",
+    "url": "/roulette/static/media/wheel.13059766.jpg"
+  },
+  {
     "revision": "f3a933ff3cb9e4699c814cf4f41d8ea2",
     "url": "/roulette/static/media/chip1background.f3a933ff.jpg"
   },
@@ -96,11 +100,7 @@ self.__precacheManifest = [
     "url": "/roulette/static/media/chip100background.e8efcf3f.jpg"
   },
   {
-    "revision": "130597668bcd4fc15cd41021907d68b7",
-    "url": "/roulette/static/media/wheel.13059766.jpg"
-  },
-  {
-    "revision": "c055e962e4791b28a07b62286a4e0a6d",
+    "revision": "2bd593a3ad52fcb21e34dc440b8cf666",
     "url": "/roulette/index.html"
   }
 ];

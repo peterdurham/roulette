@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/roulette/precache-manifest.8062e914bc505042aaeda0652373cd1d.js"
+  "/roulette/precache-manifest.8367ad6dc60033272c3cf0f82ebc360b.js"
 );
 
 workbox.clientsClaim();
