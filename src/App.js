@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import './style.scss';
 
-import Stats from './Stats/Stats';
-import Table from './Table/Table';
-import chip1 from './img/chip1background.jpg';
-import chip5 from './img/chip5background.jpg';
-import chip10 from './img/chip10background.jpg';
-import chip25 from './img/chip25background.jpg';
-import chip100 from './img/chip100background.jpg';
-
+import Stats from './components/Stats/Stats';
+import Table from './components/Table/Table';
 import Wheel from './img/wheel.jpg';
+import Options from './components/Options/Options';
+
+
+
 
 class App extends Component {
 
@@ -208,17 +206,13 @@ class App extends Component {
                 betMap = {this.state.betMap}
               />
             </div>
+            <Options 
+              chipSelected = {this.state.chipSelected}
+              selectChip = {this.selectChipHandler}
+              clearBets = {this.clearBetsHandler}
+              spinWheel = {this.spinWheelHandler}
+            />
             
-            <div className="bet__options">
-              <div className="bet__options--label">Select bet: </div>
-              <div className={this.state.chipSelected===100 ? "bet__chips bet__selected" : "bet__chips"} onClick={()=>this.selectChipHandler(100)}><img className="bet__image" src={chip100} alt="100 chip"/></div>
-              <div className={this.state.chipSelected===25 ? "bet__chips bet__selected" : "bet__chips"} onClick={()=>this.selectChipHandler(25)}><img className="bet__image" src={chip25} alt="25 chip"/></div>
-              <div className={this.state.chipSelected===10 ? "bet__chips bet__selected" : "bet__chips"} onClick={()=>this.selectChipHandler(10)}><img className="bet__image" src={chip10} alt="10 chip"/></div>
-              <div className={this.state.chipSelected===5 ? "bet__chips bet__selected" : "bet__chips"} onClick={()=>this.selectChipHandler(5)}><img className="bet__image" src={chip5} alt="5 chip"/></div>
-              <div className={this.state.chipSelected===1 ? "bet__chips bet__selected" : "bet__chips"} onClick={()=>this.selectChipHandler(1)}><img className="bet__image" src={chip1} alt="1 chip"/></div>
-            </div>
-            <button className="button" onClick={()=>this.clearBetsHandler()}>Clear bets</button>
-            <button className="button" onClick={()=>this.spinWheelHandler()}>Spin</button>
           </div>
           <div className="wheel__display">
             <img className="wheel__image" src={Wheel} alt="wheel"/>

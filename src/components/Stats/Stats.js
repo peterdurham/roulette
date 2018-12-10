@@ -25,15 +25,15 @@ const Stats = (props) => {
     return(
         <div className="stats__panel">
           <div className="stats__display">
-            <p><span className="stats__label stats__label--player">Player:</span> <span className="stats__result--amount">${props.playerAmount}</span></p>
-            <p><span className="stats__label">Current Bet:</span> <span className="stats__result--amount">${props.currentTotalBet}</span></p>
+            <p><span data-testid="player-label" className="stats__label stats__label--player">Player:</span> <span className="stats__result--amount">${props.playerAmount}</span></p>
+            <p><span data-testid="stats-label" className="stats__label">Current Bet:</span> <span className="stats__result--amount">${props.currentTotalBet}</span></p>
           </div>
           <div className="stats__spin">
-            <div className="stats__spin--label"><span className="stats__result--label">Last Spin</span> <div className="stats__amount--label">{spin}</div></div>
+            <div className="stats__spin--label"><span data-testid="lastspin-label" className="stats__result--label">Last Spin</span> <div className="stats__amount--label">{spin}</div></div>
             <div className="stats__result--display">{redBack}{blackBack}{greenBack}</div>
           </div>
           <div className="stats__result">
-            <p className="stats__result--label">Results:</p>
+            <p data-testid="results-label" className="stats__result--label" >Results:</p>
             {props.lastWinMessages.map((message)=><p className="stats__result--message">{message}</p>)}
           </div>
         </div>

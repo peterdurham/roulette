@@ -1,24 +1,24 @@
 import React from 'react';
 
-import chip1green from '../img/chip1green.jpg';
-import chip1red from '../img/chip1red.jpg';
-import chip1black from '../img/chip1black.jpg';
+import chip1green from '../../img/chip1green.jpg';
+import chip1red from '../../img/chip1red.jpg';
+import chip1black from '../../img/chip1black.jpg';
 
-import chip5red from '../img/chip5red.jpg';
-import chip5green from '../img/chip5green.jpg';
-import chip5black from '../img/chip5black.jpg';
+import chip5red from '../../img/chip5red.jpg';
+import chip5green from '../../img/chip5green.jpg';
+import chip5black from '../../img/chip5black.jpg';
 
-import chip10red from '../img/chip10red.jpg';
-import chip10green from '../img/chip10green.jpg';
-import chip10black from '../img/chip10black.jpg';
+import chip10red from '../../img/chip10red.jpg';
+import chip10green from '../../img/chip10green.jpg';
+import chip10black from '../../img/chip10black.jpg';
 
-import chip25red from '../img/chip25red.jpg';
-import chip25green from '../img/chip25green.jpg';
-import chip25black from '../img/chip25black.jpg';
+import chip25red from '../../img/chip25red.jpg';
+import chip25green from '../../img/chip25green.jpg';
+import chip25black from '../../img/chip25black.jpg';
 
-import chip100red from '../img/chip100red.jpg';
-import chip100green from '../img/chip100green.jpg';
-import chip100black from '../img/chip100black.jpg';
+import chip100red from '../../img/chip100red.jpg';
+import chip100green from '../../img/chip100green.jpg';
+import chip100black from '../../img/chip100black.jpg';
 
 
 const Slot = (props)=>{
