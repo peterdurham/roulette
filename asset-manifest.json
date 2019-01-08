@@ -1,7 +1,7 @@
 {
   "main.css": "/roulette/static/css/main.79353213.chunk.css",
-  "main.js": "/roulette/static/js/main.f2b82254.chunk.js",
-  "main.js.map": "/roulette/static/js/main.f2b82254.chunk.js.map",
+  "main.js": "/roulette/static/js/main.a80fbd97.chunk.js",
+  "main.js.map": "/roulette/static/js/main.a80fbd97.chunk.js.map",
   "static/js/1.a3c20dc8.chunk.js": "/roulette/static/js/1.a3c20dc8.chunk.js",
   "static/js/1.a3c20dc8.chunk.js.map": "/roulette/static/js/1.a3c20dc8.chunk.js.map",
   "runtime~main.js": "/roulette/static/js/runtime~main.ab6ea754.js",
@@ -29,6 +29,6 @@
   "static/media/chip100background.jpg": "/roulette/static/media/chip100background.e8efcf3f.jpg",
   "static/css/main.79353213.chunk.css.map": "/roulette/static/css/main.79353213.chunk.css.map",
   "index.html": "/roulette/index.html",
-  "precache-manifest.8367ad6dc60033272c3cf0f82ebc360b.js": "/roulette/precache-manifest.8367ad6dc60033272c3cf0f82ebc360b.js",
+  "precache-manifest.3997fa79a8f2cd05302a09fe43ba1257.js": "/roulette/precache-manifest.3997fa79a8f2cd05302a09fe43ba1257.js",
   "service-worker.js": "/roulette/service-worker.js"
 }

@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/roulette/static/media/chip25red.dd16d7ad.jpg"
   },
   {
-    "revision": "f2b82254dabd25e33cee",
+    "revision": "a80fbd975475e837e9a7",
     "url": "/roulette/static/css/main.79353213.chunk.css"
   },
   {
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/roulette/static/media/chip10black.9ae6163b.jpg"
   },
   {
-    "revision": "f2b82254dabd25e33cee",
-    "url": "/roulette/static/js/main.f2b82254.chunk.js"
+    "revision": "a80fbd975475e837e9a7",
+    "url": "/roulette/static/js/main.a80fbd97.chunk.js"
   },
   {
     "revision": "40f1a5b7743f029c939cac050fc9bfa7",
@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "/roulette/static/media/chip100background.e8efcf3f.jpg"
   },
   {
-    "revision": "2bd593a3ad52fcb21e34dc440b8cf666",
+    "revision": "7066bfa313fdb03171235883572a6103",
     "url": "/roulette/index.html"
   }
 ];
