@@ -16,8 +16,4 @@ test('<Options />', () => {
     expect(getByTestId('bet-100').tagName).toBe('DIV');
 
 
-    expect(Options.find('img').filterWhere((item) => {
-        return item.prop('src') === chip100;
-      })).to.have.lengthOf(1);
-
 })

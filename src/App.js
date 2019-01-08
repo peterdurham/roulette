@@ -7,8 +7,6 @@ import Wheel from './img/wheel.jpg';
 import Options from './components/Options/Options';
 
 
-
-
 class App extends Component {
 
   state = {

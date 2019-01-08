@@ -2,10 +2,9 @@ import React from 'react';
 
 import Slot from '../Slot/Slot';
 
-const Table = (props) => {
+const Table = ({ betMap, betSelected, selectBetHandler }) => {
     let topRow = [3,6,9,12,15,18,21,24,27,30,33,36, "3rd row"];
       let topRowBets = topRow.map((item)=> {
-        let betMap = props.betMap;
         let current = null;
         betMap.forEach((bet)=>{
           if(bet.value === item){
@@ -17,7 +16,6 @@ const Table = (props) => {
   
       let middleRow = [2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, '2nd row'];
       let middleRowBets = middleRow.map((item)=> {
-        let betMap = props.betMap;
         let current = null;
         betMap.forEach((bet)=>{
           if(bet.value === item){
@@ -29,7 +27,6 @@ const Table = (props) => {
   
       let bottomRow = [1,4,7, 10, 13, 16, 19, 22, 25, 28, 31, 34, '1st row'];
       let bottomRowBets = bottomRow.map((item)=> {
-        let betMap = props.betMap;
         let current = null;
         betMap.forEach((bet)=>{
           if(bet.value === item){
@@ -41,7 +38,6 @@ const Table = (props) => {
   
       let sideLineTop = ['1st 12', '2nd 12', '3rd 12'];
       let sideLineTopBets = sideLineTop.map((item)=> {
-        let betMap = props.betMap;
         let current = null;
         betMap.forEach((bet)=>{
           if(bet.value === item){
@@ -53,7 +49,6 @@ const Table = (props) => {
   
       let sideLineBot = ['1-18', 'EVEN', 'Red', 'Black', 'ODD', '19-36'];
       let sideLineBotBets = sideLineBot.map((item)=> {
-        let betMap = props.betMap;
         let current = null;
         betMap.forEach((bet)=>{
           if(bet.value === item){
@@ -65,7 +60,6 @@ const Table = (props) => {
   
       let zeroLine = [0];
       let zeroLineBets = zeroLine.map((item)=> {
-        let betMap = props.betMap;
         let current = null;
         betMap.forEach((bet)=>{
           if(bet.value === item){
@@ -84,8 +78,8 @@ const Table = (props) => {
             <div>
               <Slot 
                 betValue={0}
-                betSelected = {props.betSelected}
-                selectBetHandler = {props.selectBetHandler}
+                betSelected = {betSelected}
+                selectBetHandler = {selectBetHandler}
                 betAmount = {zeroLineBets[0]}
               />
             </div>
@@ -94,8 +88,8 @@ const Table = (props) => {
                   {topRow.map((bet, index)=><Slot 
                     key={bet}
                     betValue = {bet}
-                    betSelected = {props.betSelected}
-                    selectBetHandler = {props.selectBetHandler}
+                    betSelected = {betSelected}
+                    selectBetHandler = {selectBetHandler}
                     betAmount= {topRowBets[index]}
                   />)}
                 </div>
@@ -103,8 +97,8 @@ const Table = (props) => {
                   {middleRow.map((bet, index)=><Slot 
                     key={bet}
                     betValue = {bet}
-                    betSelected = {props.betSelected}
-                    selectBetHandler = {props.selectBetHandler}
+                    betSelected = {betSelected}
+                    selectBetHandler = {selectBetHandler}
                     betAmount= {middleRowBets[index]}
                   />)}
                 </div>
@@ -112,8 +106,8 @@ const Table = (props) => {
                   {bottomRow.map((bet, index)=><Slot 
                     key={bet}
                     betValue = {bet}
-                    betSelected = {props.betSelected}
-                    selectBetHandler = {props.selectBetHandler}
+                    betSelected = {betSelected}
+                    selectBetHandler = {selectBetHandler}
                     betAmount= {bottomRowBets[index]}
                   />)}
                 </div>
@@ -123,8 +117,8 @@ const Table = (props) => {
                   {sideLineTop.map((bet, index)=><Slot 
                     key={bet}
                     betValue = {bet}
-                    betSelected = {props.betSelected}
-                    selectBetHandler = {props.selectBetHandler}
+                    betSelected = {betSelected}
+                    selectBetHandler = {selectBetHandler}
                     betAmount= {sideLineTopBets[index]}
                   />)}
                 </div>
@@ -132,8 +126,8 @@ const Table = (props) => {
                 {sideLineBot.map((bet, index)=><Slot 
                     key={bet}
                     betValue = {bet}
-                    betSelected = {props.betSelected}
-                    selectBetHandler = {props.selectBetHandler}
+                    betSelected = {betSelected}
+                    selectBetHandler = {selectBetHandler}
                     betAmount= {sideLineBotBets[index]}
                   />)}
                 </div>
