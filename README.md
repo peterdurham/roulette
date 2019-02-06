@@ -1,6 +1,8 @@
 # Roulette
 
-A roulette game app with full table and multiple bet amounts in React. Start with $500 and wager increments of $1, $5, $10, $25, $100.
+A roulette game app with full table and multiple bet amounts in React. 
+  
+Start with $500 and wager increments of $1, $5, $10, $25, $100.
 
 ![app screenshot](http://www.peterdurham.site/images/site-images/projects/roulette.jpg)
 
