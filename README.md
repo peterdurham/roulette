@@ -1,4 +1,4 @@
-# Roulette
+# :moneybag: Roulette
 
 A roulette game app with full table and multiple bet amounts in React. 
   
